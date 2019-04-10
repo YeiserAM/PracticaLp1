@@ -1,0 +1,19 @@
+*{  
+    box-sizing: border-box;
+}
+.hotel{
+    width: 530px;
+    max-width: 100%;
+    margin: rigth;
+    margin-top: 30px;
+    padding: 20px;
+
+}
+.tabla{
+    width: 530px;
+    max-width: 100%;
+    margin: rigth;
+    margin-top: auto;
+    padding: auto;
+
+}
