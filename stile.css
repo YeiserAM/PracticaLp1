@@ -1,19 +1,62 @@
-*{  
-    box-sizing: border-box;
-}
-.hotel{
-    width: 530px;
-    max-width: 100%;
-    margin: rigth;
-    margin-top: 30px;
-    padding: 20px;
 
+body{
+    margin: 0;
+    font-family: sans-serif;
 }
-.tabla{
-    width: 530px;
-    max-width: 100%;
-    margin: rigth;
-    margin-top: auto;
-    padding: auto;
 
+main{
+    width: 1000px;
+    float: auto;
+    display: block;
+    margin: auto;
+    padding-top: 20px;
+}
+
+article{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 49%;
+    float: left;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.3);
+}
+
+aside{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 49%;
+    float: right;
+    max-width: 50%;
+    margin: auto;
+    box-shadow: 0 0 20px 1px rgba(255, 255, 255, 0.3);
+    
+}
+
+.input_y{
+    margin-top: 10px;
+    background: transparent;
+    border: 1px solid rgba(25, 0, 255, 0.349);
+}
+
+.left-bottom{
+    margin-top: 10px;
+    border-top: 1px solid black;
+    padding-top: 20px;
+}
+
+input[type="button"]{
+    margin-top: 20px;
+    margin-left: 70%;
+    vertical-align: bottom;
+    float: left;
+}
+
+#save{
+    margin-left: 5px;
+}
+
+table{
+    width: 95%;
+    margin: auto;
 }
